@@ -14,9 +14,11 @@ const App = () => {
  
   return (
     <div>
+      <div>
       <Navbar 
         cartItem={cartItem} // sending cart item value to navbar as props
       />
+      </div>
       <div className='container'>
         {
             products.map((product, index) =>(
@@ -29,7 +31,9 @@ const App = () => {
             ))
         }
       </div>
+      <div>
       <Footer />
+      </div>
     </div>
   )
 }
