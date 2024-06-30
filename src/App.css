@@ -1,0 +1,39 @@
+.logo {
+  width: 100px;
+  height: 80px;
+}
+
+.navbar {
+  top: 0%;
+  height: 85px;
+  background-color: aquamarine;
+}
+.cartItem {
+  padding: 1px;
+  font-weight: bolder;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+.card {
+  width: 18rem;
+}
+
+.footer{
+  position:fixed;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+  bottom: 0%;
+  height: 50px;
+}
+.cart {
+  width: 8rem;
+}
+
