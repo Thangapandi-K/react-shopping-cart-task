@@ -1,8 +1,25 @@
-# React + Vite
+## REACT SHOPPING CART TASK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![alt text](image.png)
 
-Currently, two official plugins are available:
+> Creating a shopping cart using React.js that allows users to add and remove items from shoppig cart
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+- In the webpage clicking `Add to cart` button in the product card adds the count to the `cart` (right side top).
+
+- After the click `Add to cart` button it changes into `Remove from cart` button.
+
+- On clicking `Remove from cart` button it reduces the count from the `cart` (right side top) and reset itself to `Add to cart` button.
+
+- [Click Here](https://react-shopping-cart-task-chella.netlify.app/) to preview the webpage.
+
+
+#### Components used in ReactJS
+
+- [Navigation Bar](./src/components/Navbar.jsx) containing Logo, Links and `Cart`.
+
+- [Products](./src/components/Products.jsx) containing datas about products.
+
+- [Product Page](./src/components/ProductPage.jsx) which access products and return as seperate cards.
+
+- [Public](./public/) folder for images that used in the web page.
